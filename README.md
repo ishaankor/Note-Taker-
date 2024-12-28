@@ -29,16 +29,7 @@ A Python script that allows you to be able to record audio and make useful notes
 
 3. Configure `.env`:
    ```plaintext
-   API_URL=https://your-canvas-api-url
-   API_KEY=your-canvas-api-key
-   COURSE_ID=your-course-id
-   INSTITUTION_URL=https://your-institution-url
-   NOTE_FOLDER_DIRECTORY=/path/to/your/notes
-   COMBINED_NOTES_DIRECTORY=/path/to/output/combined-notes.pdf
-   SENDER_EMAIL=your-email@example.com
-   RECEIVER_EMAIL=receiver-email@example.com
-   EMAIL_PASSWORD=your-email-password
-   MODULE_ITEM_IDS=[]
+   GEMINI_API_URL=<KEY>
    ```
 
 4. Run the script:
