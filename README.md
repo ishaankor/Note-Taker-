@@ -54,5 +54,5 @@ This project requires the following system dependencies:
 
 4. Run the script:
    ```bash
-   python notes_synthesizer_dynamic.py
+   python notes-taker.py
    ```
