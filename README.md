@@ -38,8 +38,8 @@ This project requires the following system dependencies:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/notes-synthesizer.git
-   cd notes-synthesizer
+   git clone https://github.com/ishaankor/notes-taker.git
+   cd notes-taker
    ```
 
 2. Install dependencies:
