@@ -11,7 +11,7 @@ A Python script that allows you to be able to record audio and make useful notes
 - Python 3.8+ with microphone access
 - Installation of portaudio and ffmpeg
 - Acquiring API keys from Google Gemini and client secret from Google Drive API
-  - Make sure to set the redirect url to **http://localhost:8080/**
+  - Make sure to set the redirect url in the client secret to **http://localhost:8080/**
 - Environment variables are properly set
 
 ## Setup
