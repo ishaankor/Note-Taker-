@@ -36,7 +36,6 @@ def check_credentials():
     else:
         client_secret_file = open('client_secret.json', 'r')
         client_secret_json = json.load(client_secret_file)
-        print(client_secret_json['web'])
         if 'redirect_uris' not in client_secret_json['web'].keys():
             exit('Please make sure to make the "redirect_uris" key in your client_secret.json equal to "http://localhost:8080/" or any other url you would like to use!')
 
