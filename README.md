@@ -7,6 +7,13 @@ A Python script that allows you to be able to record audio and make useful notes
 - Automatically stores both recording audio and notes into your Google Drive
 - Configurable through environment variables for reusability.
 
+## Requirements
+- Python 3.8+ with microphone access
+- Installation of system-level dependencies like `portaudio` and `ffmpeg`
+- Acquiring API keys from Google Gemini and client secret from Google Drive API
+  - Make sure to set the redirect url in the client secret to **http://localhost:8080/**
+- Environment variables are properly set
+
 ## System Dependencies
 
 This project requires the following system dependencies:
@@ -26,13 +33,6 @@ This project requires the following system dependencies:
    - Windows: Download and configure FFmpeg:
      - [FFmpeg Download](https://ffmpeg.org/download.html)
      - Add FFmpeg to your system PATH.
-
-## Requirements
-- Python 3.8+ with microphone access
-- Installation of system-level dependencies like `portaudio` and `ffmpeg`
-- Acquiring API keys from Google Gemini and client secret from Google Drive API
-  - Make sure to set the redirect url in the client secret to **http://localhost:8080/**
-- Environment variables are properly set
 
 ## Setup
 
