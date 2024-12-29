@@ -152,10 +152,7 @@ def interpret_lecture(filename):
 # Transform transcript into effective notes using OpenAI GPT
 def synthesizing_lecture(audio_transcript):
     print("Processing notes with Google's Gemini...")
-    try:
-        genai.configure(api_key=GEMINI_API_KEY)
-    except Exception as e:
-        exit("Please get your Gemini API key!")
+    genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel('gemini-1.5-flash')
     try:
         prompt = (
