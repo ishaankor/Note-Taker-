@@ -29,7 +29,7 @@ This project requires the following system dependencies:
 
 ## Requirements
 - Python 3.8+ with microphone access
-- Installation of system-level dependencies like portaudio and ffmpeg
+- Installation of system-level dependencies like `portaudio` and `ffmpeg`
 - Acquiring API keys from Google Gemini and client secret from Google Drive API
   - Make sure to set the redirect url in the client secret to **http://localhost:8080/**
 - Environment variables are properly set
