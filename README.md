@@ -49,7 +49,7 @@ This project requires the following system dependencies:
 
 3. Configure `.env`:
    ```plaintext
-   GEMINI_API_URL=<KEY>
+   GEMINI_API_URL=your-gemini-api-key
    ```
 
 4. Run the script:
